@@ -1,0 +1,28 @@
+.nav{
+    background: var(--default-white);
+    box-shadow: 0px 4px 6px -2px rgba(0, 0, 0, 0.05), 0px 10px 15px -3px rgba(0, 0, 0, 0.10);
+    height: 80px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.nav .mainnavcontainer{
+    height:  100%;
+}
+.cart{
+    cursor: pointer;
+}
+.cart img{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    position: relative;
+    top: 5px;
+}
+.nav .mainnavcontainer .textheader{
+    color: var(--default-gray-900, #111827);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */}

@@ -1,0 +1,41 @@
+.carlistitem {
+  background: var(--default-gray-100, #f3f4f6);
+}
+.cartitle {
+    color: #000;
+  
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 140% */
+  }
+  .carprice {
+    margin-top: 6px;
+    color: #000;
+  
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+  }
+  .detail {
+    padding: 16px;
+  }
+  .addtocartbtn {
+    width: 270px;
+    height: 56px;
+    background-color: #3b82f6;
+    color: var(--default-white, #fff);
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    margin-top: 16px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    cursor: pointer;
+  }
+  .addtocartbtn:hover{
+    background-color: #1E40AF;
+  }

@@ -1,0 +1,71 @@
+.CarsListFilter {
+  min-height: 74px;
+  background: var(--default-white);
+  padding: 18px;
+  display: flex;
+}
+.carslistcontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.CarsListFiltercontainer {
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.CarsListFilter .maintext {
+  color: var(--default-gray-900, #111827);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px; /* 120% */
+}
+.mainfilterinput {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.textinput {
+  width: 302px;
+  flex-grow: 1;
+}
+.selectinput {
+  width: 206px;
+  flex-grow: 1;
+}
+.selectinput select {
+  z-index: -1;
+}
+.mainfilterinput input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+  border: 1px solid var(--default-gray-300, #d1d5db);
+  background: var(--default-white, #fff);
+}
+.mainfilterinput .selectinput {
+  position: relative;
+}
+.mainfilterinput .selectinput img {
+  position: absolute;
+  top: 50%;
+  left: 6px;
+  transform: translateY(-50%);
+}
+.mainfilterinput select {
+  height: 42px;
+  width: 100%;
+  padding: 12px;
+  padding-left: 32px;
+  border-radius: 4px;
+  border: 1px solid var(--default-gray-300, #d1d5db);
+  background: var(--default-white, #fff);
+}
+@media screen and (max-width: 400px) {
+    .textinput {
+        width: 100%;
+      }
+      .selectinput {
+        width: 100%;
+      }
+}
